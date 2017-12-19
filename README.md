@@ -2,4 +2,4 @@
 
 ![Theme screenshot](screenshot.png "Screenshot")
 
-Wordpress theme for iscd.upmc.fr
+Wordpress theme for [iscd.upmc.fr](http://iscd.upmc.fr/)

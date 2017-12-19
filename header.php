@@ -62,25 +62,25 @@
 			}
 			var body = document.getElementsByTagName("body")[0];
 			if( hasClass(body, 'home') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoISCD_blanc.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoISCD_blanc_2018.png";
 			}
 			else if( hasClass(body, 'researchChild') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoRouge.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoRouge_2018.png";
 			}
 			else if( hasClass(body, 'aboutChild') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoISCD_noir.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoISCD_noir_2018.png";
 			}
 			else if( hasClass(body, 'trainingChild') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoVert.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoVert_2018.png";
 			}
 			else if( hasClass(body, 'expertiseChild') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoOrange.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoOrange_2018.png";
 			}
 			else if( hasClass(body, 'faqChild') ){
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoTaupe.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoTaupe_2018.png";
 			}
 			else{
-				document.getElementById("logoimg").src = "/wp-content/uploads/2017/02/logoISCD_noir.png";
+				document.getElementById("logoimg").src = "/wp-content/uploads/2017/12/logoISCD_noir_2018.png";
 			}
 		</script>
 	</div>

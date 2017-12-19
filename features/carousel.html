@@ -1,66 +1,120 @@
-
-<div id="dock" style="display:none;">
+<!-- HTML content -->
+<div id="dock" style="">
   <ul id="carousel">
-    <?php
-    $hilights_category = get_category_by_slug('hilights');
-    $the_query = new WP_Query( array( 'category_name' => $hilights_category->name, 'orderby' => 'title', 'order' => 'ASC' ) );
-    while ( $the_query->have_posts() ) {
-      $the_query->the_post();
-      $the_content = get_the_content();
-      $content     = wpautop( $the_content, true);
 
-      echo '<li><a href="#" id="'
-        . get_the_title()
-        . '" title="' . get_the_excerpt() . '"><img src="'
-        . get_the_post_thumbnail_url()
-        . '"></img></a></li>';
-        echo '<div style="display:none;" id="'
-        . get_the_title() . '_content">' . $content
-        . '</div>';
-      }
-      ?>
-    </ul>
-  </div>
-  <style>
-  #carousel {
-    height:100vh;
-    margin:0px;padding:0px;
-  }
-  #carousel li {
-    list-style-type:none;
-    padding:0px;
-    margin:15px;
-    margin-bottom:-5px;
-    text-align:center;
-  }
-  #carousel li img{
-    list-style-type:none;
-    padding:0px;
-    margin:0px;
-    transition:0.5s;
-  }
-  #carousel{width:22.5%;vertical-align:middle}
-  </style>
-  <script type="text/javascript">
-  jQuery(document).ready(function($){
-    var r = 1.8;
-    var x = $("#carousel a").length;
-    $("#carousel li a img").css("height", $("#carousel").height()/x - 15 + "px" );
-    $("#carousel li a img")
-    .hover(function() {
-      var y = $("#carousel").height() / (x -1 + r) - 15;
-      $(this).css( "height", r * y +"px");
-      $("#carousel li a img").not(this).css( "height" , y + "px" );
-      $(this).css( "max-height" , $("carousel").width() - 15);
-    })
-    $("#carousel a").click(function(event) {
-      event.preventDefault();
-      ;});
-      $("#carousel").mouseout(function(){$("#carousel li a img").css("height",$("#carousel").height()/x - 15 +"px");});
-    });
-    </script>
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+    <li>
+      <a href="http://google.fr" id="" title="">
+        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+      </a>
+    </li>
+    <div style="display:none;" id="">
+    </div>
+
+  </ul>
+</div>
 
 
-    <!--
-    <div id="contentSideBar"></div>
-  -->
+<!-- CSS styling -->
+<style>
+#carousel {
+  height:100vh;
+  margin:0px;padding:0px;
+}
+#carousel li {
+  list-style-type:none;
+  padding:0px;
+  margin:15px;
+  margin-bottom:-5px;
+  text-align:center;
+}
+#carousel li img{
+  list-style-type:none;
+  padding:0px;
+  margin:0px;
+  transition:0.5s;
+}
+#carousel{
+  width:22.5%;
+  vertical-align:middle;
+}
+</style>
+
+
+<!-- Include jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<!-- Run the script -->
+<script type="text/javascript">
+$(document).ready(function($){
+
+  var r = 3;
+  var x = $("#carousel a").length;
+
+  $("#carousel li a img").css("height", $("#carousel").height()/x - 15 + "px" );
+
+  $("#carousel li a img").hover(function() {
+    var y = $("#carousel").height() / (x -1 + r) - 15;
+    $(this).css( "height", r * y +"px");
+    $("#carousel li a img").not(this).css( "height" , y + "px" );
+    $(this).css( "max-height" , $("carousel").width() - 15);
+  });
+
+  $("#carousel a").click(function(event) {
+    event.preventDefault();
+  });
+
+  $("#carousel").mouseout(function(){
+    $("#carousel li a img").css("height",$("#carousel").height()/x - 15 +"px");
+  });
+
+});
+</script>

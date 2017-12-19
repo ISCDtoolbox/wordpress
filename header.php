@@ -71,7 +71,7 @@
 			}
 			var hasAClass = 0;
 			for (var classe in _logos){
-				if hasClass(body, classe){
+				if (hasClass(body, classe)){
 					document.getElementById("logoimg").src = _logos[classe];
 					hasAClass = 1;
 					break;
@@ -121,7 +121,7 @@
 		<!-- Et avec la liste alphabétique -->
 		<span id="azlist"></span>
 		<script>
-			$("#azlist").load("htmlTemplates/azlist.html");
+			$("#azlist").load("<?php bloginfo('template_directory');?>/htmlTemplates/azlist.html");
 		</script>
 	</div>
 
@@ -145,16 +145,13 @@
 	<!-- On change la couleur des icones en fonction de la page -->
 	<script>
 		icons = document.getElementsByClassName("icon");
-		main  = document.getElementById("mainButton");
 		var i;
 		if( hasClass(body, 'home') ){
-			main.className += " buttonLight";
 			for (i = 0; i < icons.length; i++) {
 				icons[i].className += " buttonLight";
 			}
 		}
 		else{
-			main.className += " buttonDark";
 			for (i = 0; i < icons.length; i++) {
 				icons[i].className += " buttonDark";
 			}

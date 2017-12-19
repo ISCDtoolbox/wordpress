@@ -4,7 +4,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="http://imagelot.com/images/art/img/57080046_turquoise-texture.jpg"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -12,7 +12,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="https://i.pinimg.com/564x/9d/3a/9a/9d3a9a9acc291e75d8e2ee8209a4e79a--geometric-background-vector-pattern.jpg"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -20,7 +20,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="http://www.template-joomspirit.com/template-joomla/template-94/images/pattern/leather-black.jpg"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -28,7 +28,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="https://www.blendswap.com/files/images/2015/12/26/Blend/82526/d34889b0c5cdc4e09b54fdf100d342b9.jpg"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -36,7 +36,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="https://orig00.deviantart.net/29e1/f/2015/026/5/e/alien_sky_custom_background___solar_spectrum_by_greygrinder-d8fitz3.png"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -44,7 +44,7 @@
 
     <li>
       <a href="http://google.fr" id="" title="">
-        <img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300"></img>
+        <img src="http://alllayedout.com/Backgrounds/Green_Planet.gif"></img>
       </a>
     </li>
     <div style="display:none;" id="">
@@ -64,22 +64,29 @@
 
 <!-- CSS styling -->
 <style>
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Montserrat", serif;
+}
+
 #carousel {
   height:100vh;
-  margin:0px;padding:0px;
+  margin:0px;
+  padding:0px;
 }
 #carousel li {
   list-style-type:none;
   padding:0px;
-  margin:15px;
-  margin-bottom:-5px;
+  padding:5px 0px;
   text-align:center;
 }
 #carousel li img{
   list-style-type:none;
   padding:0px;
   margin:0px;
-  transition:0.5s;
+  transition:1s;
 }
 #carousel{
   width:22.5%;
@@ -96,24 +103,39 @@
 <script type="text/javascript">
 $(document).ready(function($){
 
+  // Rapport de zoom
   var r = 3;
+
+  // Nombre de vignettes
   var x = $("#carousel a").length;
 
-  $("#carousel li a img").css("height", $("#carousel").height()/x - 15 + "px" );
+  // On définit la taille d'une image au repos
+  $("#carousel li a img").css("height", $("#carousel").height()/x - 10 + "px" );
 
+  // Au survol de chaque vignette
   $("#carousel li a img").hover(function() {
-    var y = $("#carousel").height() / (x -1 + r) - 15;
-    $(this).css( "height", r * y +"px");
+    //On fixe la taille de la vignette
+    var y = $("#carousel").height() / (x -1 + r) - 10 ;
+    $(this).css( "height", r * y + "px");
+    //On fixe la taille des autres
     $("#carousel li a img").not(this).css( "height" , y + "px" );
-    $(this).css( "max-height" , $("carousel").width() - 15);
+    //On fixe une hauteur maxi
+    $(this).css( "max-height" , $("carousel").width() - 10 );
   });
 
+  // Pas d'action au clic
   $("#carousel a").click(function(event) {
     event.preventDefault();
   });
 
+  // Si on sort, on remet toutes les tailles comme il faut
   $("#carousel").mouseout(function(){
-    $("#carousel li a img").css("height",$("#carousel").height()/x - 15 +"px");
+    $("#carousel li a img").css("height",$("#carousel").height()/x - 10 );
+  });
+
+  // On corrige le bug si on change la taille de la fenêtre
+  $(window).resize(function(){
+    $("#carousel li a img").css("height",$("#carousel").height()/x - 10 );
   });
 
 });

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WebGL</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+
+  <!--
+  1 - setFrame(id, path, root):
+    id:   identifiant de l'iframe qui affichera l'objet 3D
+    path: chemin dans lequel on va trouver les fichiers .obj, .mtl et les textures
+    root: nom de base, avant l'extension .obj et .mtl
+  2 - en attributs de l'iframe:
+    width:  effectif en pourcentage ou en pixels
+    height: ne marche qu'en pixels malheureusement
+  3 - dans la balise style:
+    top: calc(height/2 - 50px), prendre en compte la hauteur demandee
+    idem pour le hover
+
+  En cliquant sur le iframe, on lui definit l'url source,
+  avec des balises #, la premiere donnant le chemin relatif, la seconde la racine.
+  C'est dans le fichier 3dviewer.js que tout se passe pour definir les chemins.
+  -->
+<h1>Un bloc de numero</h1>
+  <div class="holder">
+    <img id="play"    src="3d.png"    onClick="startFrame('obj/', 'output')"></img>
+    <img id="stop"    src="pause.png"    onClick="stopFrame()"></img>
+    <iframe id="frame" allowtransparency="true" style="background: #666;" src="about:blank" width="100%" height="500px" frameborder="0"></iframe>
+  </div>
+
+  <style>
+  .holder{position:relative;width:100%;height:500px;}
+  #play{
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:calc(50% - 50px);
+    top:calc(250px - 50px);
+    cursor:pointer;
+    transition:0.3s;
+  }
+  #play:hover{
+    width:120px;
+    height:120px;
+    left:calc(50% - 60px);
+    top:calc(250px - 60px);
+    opacity:0.5;
+  }
+  #stop{
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:30px;
+    height:30px;
+    visibility:hidden;
+    transition:0.3s;
+    cursor:pointer;
+  }
+  #stop:hover{
+    top:25px;
+    left:25px;
+    width:40px;
+    height:40px;
+    opacity:0.5;
+  }
+  </style>
+
+  <script>
+  function startFrame(path, objectName){
+    document.getElementById('frame').src = 'iframe.html#' + path + '#' + objectName;
+    document.getElementById('play').style.opacity = '0';
+    document.getElementById('play').style.visibility = 'hidden';
+    document.getElementById('stop').style.opacity = '1';
+    document.getElementById('stop').style.visibility = 'visible';
+    document.getElementById('reload').style.opacity = '1';
+    document.getElementById('reload').style.visibility = 'visible';
+  }
+  function stopFrame(){
+    document.getElementById('frame').src = 'about:blank';
+    document.getElementById('play').style.opacity = '1';
+    document.getElementById('play').style.visibility = 'visible';
+    document.getElementById('stop').style.opacity = '0';
+    document.getElementById('stop').style.visibility = 'hidden';
+    document.getElementById('reload').style.opacity = '0';
+    document.getElementById('reload').style.visibility = 'hidden';
+  }
+  </script>
+
+
+
+
+
+</body>
+
+</html>

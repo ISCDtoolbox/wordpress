@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>3D Model .obj Viewer</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+  <script src="three_modules.js"></script>
+
+</head>
+
+
+<style>
+body {overflow: hidden;margin: 0;padding: 0;background: hsl(0, 0%, 10%);}
+p {margin: 0;padding: 0;}
+.left, .right, .logo {position: absolute;color: #fff;font-family: Geneva, sans-serif;}
+.left {bottom: 1em;left: 1em;text-align: left;}
+.logo{top:1em;right:1em;width:250px;}
+.right {top: 0;right: 0;text-align: right;}
+a {color: #f58231;}
+</style>
+
+
+
+<body>
+  <a href="http://iscd.upmc.fr" target="blank">
+    <img class="logo" src="http://iscd.upmc.fr/wp-content/uploads/2017/02/logoISCD_blanc.png"></img>
+  </a>
+  <div id="container"></div>
+
+  <script type="text/javascript" src="3dviewer.js"></script>
+
+</body>
+</html>

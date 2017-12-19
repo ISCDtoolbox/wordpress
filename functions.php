@@ -121,7 +121,7 @@ function card_func( $atts ) {
 	}
 
 	//. "<a target='_self' href=" . $a['img'] . "><img src='" . $a['img'] . "'></a>"
-	
+
 	return sticky($a["img"], $a["name"], $a["text"], $a["icon"], $a["href"], "link");
 
 	//return "<div class='card " . $a["color"] . "'>"
@@ -180,7 +180,7 @@ wp_enqueue_script('jquery');
 
 add_action( 'edit_form_after_title', 'myprefix_edit_form_after_title' );
 function myprefix_edit_form_after_title() {
-echo '<h2 style="color:red; margin:0px">Important:</h2><p style="color:#a00;margin-top:0px">When creating a news concerning an upcoming event, please specify the location and time in the excerpt, in the format "Location - Time" <br>i.e. "room 206, 33-34, second floor - 14h"</p>';
+	echo '<h2 style="color:red; margin:0px">Important:</h2><p style="color:#a00;margin-top:0px">When creating a news concerning an upcoming event, please specify the location and time in the excerpt, in the format "Location - Time" <br>i.e. "room 206, 33-34, second floor - 14h"</p>';
 }
 
 

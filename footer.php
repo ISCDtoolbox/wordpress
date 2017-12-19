@@ -15,10 +15,6 @@
 		<a target="blank" href="http://www.instituts-carnot.eu/"><img src="/wp-content/uploads/2017/02/logo_carnot.png" alt="" height="17"></a>
 	</div>
 
-	<!--
-	<script src="<?php bloginfo('template_directory');?>/js/ext/jquery-3.1.1.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	-->
 	<script src="<?php bloginfo('template_directory');?>/js/own/setup.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/own/main.js"></script>
 	<script type="text/x-mathjax-config">

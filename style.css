@@ -74,7 +74,7 @@ button{
   height:65px;
 }
 #logo img{
-        -webkit-filter: blur(0px); 
+        -webkit-filter: blur(0px);
 }
 #sponsors{
   position:fixed;
@@ -375,6 +375,32 @@ body{
   left: 70px;
   margin: auto 0;
 }
+
+/* Rajouté lors du nettoyage */
+#mainPage_content h1{font-size:3.6em;}
+#mainPage_content p{ font-size: 1.4em; }
+@media only screen and (max-width: 1440px){
+              #mainPage_content h1{ font-size: 2.4em; }
+                    #mainPage_content p{ font-size: 1em; }
+                    #toProjects{font-size:1em}
+                    #toAbout{font-size:1em}
+                    #mainPage_content button{padding:10px 15px;margin-top:15px;margin-right:15px;}
+            }
+@media only screen and (max-width: 1080px), screen and  (max-height: 640px){
+  #mainPage_content h1{ font-size: 2em; }
+  #mainPage_content p{ font-size: 0.7em; }
+  #toProjects{font-size:0.7em}
+  #toAbout{font-size:0.7em}
+  #mainPage_content button{padding:10px 15px;margin-top:15px;margin-right:15px;}
+}
+@media only screen and (max-width: 540px), screen and  (max-height: 380px) {
+  #mainPage_content h1{ font-size: 1.3em; }
+  #mainPage_content p{ font-size: 0.5em; }
+  #toProjects{font-size:0.5em}
+  #toAbout{font-size:0.5em}
+  #mainPage_content button{padding:5px 10px;margin-top:7px;margin-right:7px;}
+}
+
 #app{
   display:none;
 }
@@ -836,7 +862,7 @@ Couleurs pour les "cartes" en fonction de la categorie de la cible
 .sticky:before{
   content:'';
   width:100%;
-  height:100%;    
+  height:100%;
   position:absolute;
   left:0;
   top:0;
@@ -931,7 +957,7 @@ Couleurs pour les "cartes" en fonction de la categorie de la cible
   padding:3px;
   padding:5px 0px 5px 15px;
   margin-bottom:10px;
-  
+
   transition:0.3s;
 }
 .breve:hover{

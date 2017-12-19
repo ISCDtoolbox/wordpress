@@ -18,6 +18,7 @@
 		$args = array( 'post_type' => 'page', 'post_parent' => $post->ID, 'orderby' => 'menu_order', 'order'   => 'ASC' );
 		$the_query = new WP_Query( $args );
 
+		/* Ancien menu
 		if (get_depth($post->ID)==1 && ( get_post_field('post_name',get_post())=="about" ) ) {
 			echo '<div id="secondaryMenu">';
 			echo '<li><h3><a href="'.get_permalink($post->ID).'">' . $post->post_name . '</a></h3></li>';
@@ -41,9 +42,7 @@
 			echo '</ul>';
 			echo '</div>';
 		}
-
 		elseif( get_depth($post->ID)==1 ){echo '';}
-
 		else{
 			$args = array( 	'post_type' => 'page',
 					'post_parent' => wp_get_post_parent_id( $post->ID ),
@@ -71,6 +70,60 @@
 			echo '</ul>';
 			echo '</div>';
 		}
+		*/
+
+		if (get_depth($post->ID)==1 && ( get_post_field('post_name',get_post())!="faq" ) ) {
+			echo '<div id="secondaryMenu">';
+			echo '<li><h3><a href="'.get_permalink($post->ID).'">' . $post->post_name . '</a></h3></li>';
+			echo '<ul>';
+			$url = get_permalink($post->ID);
+			while ( $the_query->have_posts() ) {
+				$the_query->the_post();
+				$slug = get_post_field( 'post_name', get_post() );
+				if(get_the_permalink() == $url){
+					echo '<li class="current" href="'
+					. $slug
+					. '"><a href="'
+					. get_the_permalink()
+					.'">' . get_the_title() . '</a></li>';
+				}
+				else{
+					echo '<li href="' . $slug . '"><a href="'.get_the_permalink().'">' . get_the_title() . '</a></li>';
+				}
+			}
+			wp_reset_postdata();
+			echo '</ul>';
+			echo '</div>';
+		}
+		elseif( get_depth($post->ID)==1 ){echo '';}
+		else{
+			$args = array( 	'post_type' => 'page',
+					'post_parent' => wp_get_post_parent_id( $post->ID ),
+					'orderby' => 'menu_order',
+					'order'   => 'ASC' );
+			$the_query = new WP_Query( $args );
+			echo '<div id="secondaryMenu" class="pasabout">';
+			echo '<li><h3><a href="'
+				. get_permalink(wp_get_post_parent_id( $post->ID )).'">'
+				. get_post(wp_get_post_parent_id( $post->ID ))->post_name
+				. '</a></h3></li>';
+			echo '<ul>';
+			$url = get_permalink($post->ID);
+			while ( $the_query->have_posts() ) {
+				$the_query->the_post();
+				$slug = get_post_field( 'post_name', get_post() );
+				if(get_the_permalink() == $url){
+					echo '<li class="current" href="' . $slug . '"><a href="'.get_the_permalink().'">' . get_the_title() . '</a></li>';
+				}
+				else{
+					echo '<li href="' . $slug . '"><a href="'.get_the_permalink().'">' . get_the_title() . '</a></li>';
+				}
+			}
+			wp_reset_postdata();
+			echo '</ul>';
+			echo '</div>';
+		}
+
 
 		?>
 

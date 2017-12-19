@@ -1,7 +1,7 @@
 	<div id="sponsors">
-		<a target="blank" href="http://www.lanouvelleuniversite.fr/"><img src="/wp-content/uploads/2017/12/logo_sorbonne.png" alt="" height="17"></a>
-		<a target="blank" href="http://www.cnrs.fr/"><img src="/wp-content/uploads/2017/02/logo_cnrs.png" alt="" height="17"></a>
-		<a target="blank" href="http://www.carnot-smiles.fr/"><img src="/wp-content/uploads/2017/12/logo_carnot.png" alt="" height="17"></a>
+		<a target="blank" href="http://www.lanouvelleuniversite.fr/"><img src="/wp-content/uploads/2017/12/logo_sorbonne.png" alt="" height="25"></a>
+		<a target="blank" href="http://www.cnrs.fr/"><img src="/wp-content/uploads/2017/02/logo_cnrs.png" alt="" height="25"></a>
+		<a target="blank" href="http://www.carnot-smiles.fr/"><img src="/wp-content/uploads/2017/12/logo_carnot.png" alt="" height="25"></a>
 		<!--
 		<a target="blank" href="http://www.utc.fr/"><img src="/wp-content/uploads/2017/02/logo_utc.png" alt="" height="17"></a>
 		<a target="blank" href="http://www.insead.edu/"><img src="/wp-content/uploads/2017/02/logo_insead.png" alt="" height="17"></a>

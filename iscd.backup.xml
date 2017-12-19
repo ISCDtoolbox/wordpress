@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.7.4" created="2017-12-19 12:20" -->
+<!-- generator="WordPress/4.7.4" created="2017-12-19 16:35" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Institut des Sciences du Calcul et de Données</title>
 	<link>http://iscd.upmc.fr</link>
 	<description></description>
-	<pubDate>Tue, 19 Dec 2017 12:20:14 +0000</pubDate>
+	<pubDate>Tue, 19 Dec 2017 16:35:44 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://iscd.upmc.fr</wp:base_site_url>
@@ -4045,6 +4045,14 @@
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:810;s:6:"height";i:628;s:4:"file";s:20:"2016/11/header-1.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_ISCD2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1513698232]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[ISCD2]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>lagardere</title>
@@ -6443,133 +6451,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Contact</title>
-		<link>http://iscd.upmc.fr/contact/</link>
-		<pubDate>Fri, 21 Oct 2016 09:03:39 +0000</pubDate>
-		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8888/?page_id=42</guid>
-		<description></description>
-		<content:encoded><![CDATA[Please read our <a href="http://iscd.upmc.fr/about/">Frequently Asked Questions page</a> before sending an inquiry. Due to the volume of inquiries received, we are unable to reply directly to inquiries addressed in the FAQ.
-<table style="width:100%; font-size:0.85em;">
-<tbody>
-<tr><td style="width:40%; margin-right:10px;"><h2>Mailing address</h2></td><td><h2>Physical address</h2></td></tr>
-<tr><td>Institut des sciences du calcul et des données</td>
-<td>Hall 33-34, 2nd floor</td></tr>
-<tr><td>boîte courrier 380, 4, place Jussieu</td>
-<td>campus Jussieu</td></tr>
-<tr><td>75252 Paris cedex 05, France</td>
-<td>75005 Paris (métro Jussieu)</td></tr>
-<tr><td style="width:15%;"><h2>Téléphone</h2></td>
-<td><h2>Looking for someone?</h2></td></tr>
-<tr><td> (+33) 1 44 27 51 02, main number</td>
-<td>Try <a href="https://www.annuaire.upmc.fr/upmc/indexPage.upmc">UPMC main Directory</a></td></tr>
-</table>
-</tbody>
-
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>43</wp:post_id>
-		<wp:post_date><![CDATA[2016-10-21 09:03:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-10-21 09:03:39]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page_secondary.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Presentation</title>
-		<link>http://iscd.upmc.fr/about/</link>
-		<pubDate>Fri, 21 Oct 2016 09:03:47 +0000</pubDate>
-		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8888/?page_id=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h1>The Mission of the ISCD</h1>
-
-<p>The institute for computing and data sciences (ISCD) at <a href="http://www.lanouvelleuniversite.fr/fr/index.html">Sorbonne Université</a> (SU) is developing and promoting mathematical and computational methods across sciences, humanities and medicine. The ISCD coexist and collaborate with various research labs and structures, while scientists associated with interdisciplinary projects remain affiliated to their home faculties. Scientific questions and applications raised by scientists in these projects will lead to new developments in mathematical and computational sciences which in turn will enable more complex and efficient simulations or analysis. The interdisciplinary spirit fueling the interactions has become the trademark of the ISCD. 
-</p>
-
-<h2><span style="padding-right:10px; padding-top:25px;" class="fa fa-history" aria-hidden="true"></span>A Short Historical Overview</h2>
-
-<p style="padding-bottom:25px;">The ISCD was founded in 2010 by the Université Pierre et Marie Curie (UPMC) as a university research association (<i>Fédération de Recherche</i>) to advance science through innovative computational approaches in scientific computing, on the initiative of a small team of faculty members led by Pr. Olivier Pironneau, former head of the French Strategic Committee for High-Performance Computing. The creation of an interdisciplinary think tank with HPC resources was considered an attractive idea even though ambitious as there wasn't comparable facility at French universities. Since then, the ISCD is dedicated to interdisciplinary research in scientific computing, scientific visualisation and data science. At the turn of the 21st century, these topics have developed into key technologies, complementing theory and experimentation. They require expertise from both areas, in addition to mathematics and computer science. The emergence of bioinformatics is a relevant example of the fruitfulness of the encounter between biology and computer science. 
-</br>
-
-The interdisciplinary involvement of the ISCD is not confined to research but it also contribute to the education of a new breed of scientists, as the research conducted by the teaching faculty will disseminate throughout the M.Sc. and the PhD curricula.
-</p>
-
-<h2><span style="padding-right:10px; padding-top:10px;" class="fa fa-bar-chart fa-1x" aria-hidden="true"></span>Quick facts</h2>
-
-<table width="60%"><tbody>
-<tr align="center" style="color:#00587b;">
-<td width="20%"><span class="fa fa-birthday-cake fa-2x fa-border" aria-hidden="true"></span></td>
-<td width="20%"><span class="fa fa-users fa-2x fa-border" aria-hidden="true"></span></td>
-<td width="20%"><span class="fa fa-graduation-cap fa-2x fa-border" aria-hidden="true"></span></td>
-</tr>
-<tr align="center">
-<td>year founded</br><span style="font-size: 1.5em;">2010</span></td>
-<td># affiliates</br><span style="font-size: 1.5em;">200+</span></td>
-<td># grad. students</br><span style="font-size: 1.5em;">50+</span></td>
-</tr>
-</tbody></table>
-<p>The ISCD has grown to a university central structure with overall more than 200 researchers from mathematics, computer science, biology, chemistry, engineering, physics, earth sciences, medicine and humanities. Since 2010, more than 50 PhDs and postdocs have been hired to work on a dozen of research areas, from computational chemistry and biology to mathematical modelling for forensic sciences, to digital archeology, to scientific visualization or to healthcare analytics.
-</p>
-
-<h2><span style="padding-right:10px; padding-top:25px;" class="fa fa-euro fa-1x" aria-hidden="true"></span>ISCD Budget</h2>
-
-<p>The annual budget of the ISCD is provided by Sorbonne Université. In 2012, the ISCD has successfully applied to the French investment program (<a href="http://www.enseignementsup-recherche.gouv.fr/pid24578/investissements-d-avenir.html" target="_blank">PIA/Programme Investissements d’Avenir</a>) which acknowledged the structuring nature of this project to tackle interdisciplinary challenges in scientific computing. Since then, additional fundings came through European, national and regional initiatives. Sponsorship provides opportunities to have access to a valuable resource that would be difficult to be accommodated by the core institutions.</p>
-
-<p>A measure of the success of the ISCD model is the amount of third-party funding raised by its researchers. A selection of major grants obtained by the researchers shows that the ISCD has been able to raise substantial funding to sustain its activities.
-<ul>
-<li><span style="font-weight: bold;">2011-2019</span> equip@meso, <i>tremplin vers le calcul pétaflopique</i>, Programme Investissements d’Avenir, 1.3M€</li>
-<li><span style="font-weight: bold;">2011-2017</span> Sesame RefICS, <i>Plateforme Paris Ile de France pour la Recherche et la Formation interdisciplinaires en calcul et simulation</i>, 720k€</li>
-<li><span style="font-weight: bold;">2012-2019</span> Calsimlab, <i>Labex pour la modélisation et la simulation scientifiques en recherche</i>, Programme Investissements d’Avenir, 5M€</li>
-<li><span style="font-weight: bold;">2014-2018</span> Chair FaciLe, <i>Reconstruction cranio-faciale numérique pour la médecine légale</i>, 1.2M€</li>
-<li><span style="font-weight: bold;">2015-2018</span> ICS@SU, <i>Action structurante: institut des sciences du calcul et des données</i>, 720k€</li>
-<li><span style="font-weight: bold;">2015</span> FEDER, <i>Fédération calcul scientifique, analyse et visualisation des données complexes</i>, 380k€</li>
-</ul>
-</p>
-
-
-
-
-
-
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2016-10-21 09:03:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-10-21 09:03:47]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[3]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page_secondary.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title></title>
 		<link>http://iscd.upmc.fr/45/</link>
 		<pubDate>Sat, 18 Mar 2017 09:32:50 +0000</pubDate>
@@ -7388,6 +7269,195 @@ The interdisciplinary involvement of the ISCD is not confined to research but it
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:517;s:6:"height";i:121;s:4:"file";s:31:"2017/12/logoISCD_blanc_2018.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:31:"logoISCD_blanc_2018-150x121.png";s:5:"width";i:150;s:6:"height";i:121;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:30:"logoISCD_blanc_2018-300x70.png";s:5:"width";i:300;s:6:"height";i:70;s:9:"mime-type";s:9:"image/png";}s:15:"the_custom_logo";a:4:{s:4:"file";s:30:"logoISCD_blanc_2018-225x53.png";s:5:"width";i:225;s:6:"height";i:53;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>logo_sorbonne</title>
+		<link>http://iscd.upmc.fr/logo_sorbonne-2/</link>
+		<pubDate>Tue, 19 Dec 2017 16:18:16 +0000</pubDate>
+		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
+		<guid isPermaLink="false">http://iscd.upmc.fr/wp/wp-content/uploads/2017/12/logo_sorbonne.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5486</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-19 16:18:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-19 16:18:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[logo_sorbonne-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://iscd.upmc.fr/wp/wp-content/uploads/2017/12/logo_sorbonne.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/12/logo_sorbonne.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:237;s:6:"height";i:131;s:4:"file";s:25:"2017/12/logo_sorbonne.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"logo_sorbonne-150x131.png";s:5:"width";i:150;s:6:"height";i:131;s:9:"mime-type";s:9:"image/png";}s:15:"the_custom_logo";a:4:{s:4:"file";s:24:"logo_sorbonne-109x60.png";s:5:"width";i:109;s:6:"height";i:60;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>logo_carnot</title>
+		<link>http://iscd.upmc.fr/logo_carnot-2/</link>
+		<pubDate>Tue, 19 Dec 2017 16:18:16 +0000</pubDate>
+		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
+		<guid isPermaLink="false">http://iscd.upmc.fr/wp/wp-content/uploads/2017/12/logo_carnot.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5487</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-19 16:18:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-19 16:18:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[logo_carnot-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://iscd.upmc.fr/wp/wp-content/uploads/2017/12/logo_carnot.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/12/logo_carnot.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:308;s:6:"height";i:125;s:4:"file";s:23:"2017/12/logo_carnot.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"logo_carnot-150x125.png";s:5:"width";i:150;s:6:"height";i:125;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:23:"logo_carnot-300x122.png";s:5:"width";i:300;s:6:"height";i:122;s:9:"mime-type";s:9:"image/png";}s:15:"the_custom_logo";a:4:{s:4:"file";s:22:"logo_carnot-148x60.png";s:5:"width";i:148;s:6:"height";i:60;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Contact</title>
+		<link>http://iscd.upmc.fr/contact/</link>
+		<pubDate>Fri, 21 Oct 2016 09:03:39 +0000</pubDate>
+		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/?page_id=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[Please read our <a href="http://iscd.upmc.fr/about/">Frequently Asked Questions page</a> before sending an inquiry. Due to the volume of inquiries received, we are unable to reply directly to inquiries addressed in the FAQ.
+<table style="width:100%; font-size:0.85em;">
+<tbody>
+<tr><td style="width:40%; margin-right:10px;"><h2>Mailing address</h2></td><td><h2>Physical address</h2></td></tr>
+<tr><td>Institut des sciences du calcul et des données</td>
+<td>Hall 33-34, 2nd floor</td></tr>
+<tr><td>boîte courrier 380, 4, place Jussieu</td>
+<td>campus Jussieu</td></tr>
+<tr><td>75252 Paris cedex 05, France</td>
+<td>75005 Paris (métro Jussieu)</td></tr>
+<tr><td style="width:15%;"><h2>Téléphone</h2></td>
+<td><h2>Looking for someone?</h2></td></tr>
+<tr><td> (+33) 1 44 27 51 02, main number</td>
+<td>Try <a href="https://www.annuaire.upmc.fr/upmc/indexPage.upmc">UPMC main Directory</a></td></tr>
+</table>
+</tbody>
+
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2016-10-21 09:03:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-10-21 09:03:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page_secondary.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Presentation</title>
+		<link>http://iscd.upmc.fr/about/</link>
+		<pubDate>Fri, 21 Oct 2016 09:03:47 +0000</pubDate>
+		<dc:creator><![CDATA[loicNorgeot]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/?page_id=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h1>The Mission of the ISCD</h1>
+
+<p>The institute for computing and data sciences (ISCD) at <a href="http://www.lanouvelleuniversite.fr/fr/index.html">Sorbonne Université</a> (SU) is developing and promoting mathematical and computational methods across sciences, humanities and medicine. The ISCD coexist and collaborate with various research labs and structures, while scientists associated with interdisciplinary projects remain affiliated to their home faculties. Scientific questions and applications raised by scientists in these projects will lead to new developments in mathematical and computational sciences which in turn will enable more complex and efficient simulations or analysis. The interdisciplinary spirit fueling the interactions has become the trademark of the ISCD. 
+</p>
+
+<h2><span style="padding-right:10px; padding-top:25px;" class="fa fa-history" aria-hidden="true"></span>A Short Historical Overview</h2>
+
+<p style="padding-bottom:25px;">The ISCD was founded in 2010 by the Université Pierre et Marie Curie (UPMC) as a university research association (<i>Fédération de Recherche</i>) to advance science through innovative computational approaches in scientific computing, on the initiative of a small team of faculty members led by Pr. Olivier Pironneau, former head of the French Strategic Committee for High-Performance Computing. The creation of an interdisciplinary think tank with HPC resources was considered an attractive idea even though ambitious as there wasn't comparable facility at French universities. Since then, the ISCD is dedicated to interdisciplinary research in scientific computing, scientific visualisation and data science. At the turn of the 21st century, these topics have developed into key technologies, complementing theory and experimentation. They require expertise from both areas, in addition to mathematics and computer science. The emergence of bioinformatics is a relevant example of the fruitfulness of the encounter between biology and computer science. 
+</br>
+
+The interdisciplinary involvement of the ISCD is not confined to research but it also contribute to the education of a new breed of scientists, as the research conducted by the teaching faculty will disseminate throughout the M.Sc. and the PhD curricula.
+</p>
+
+<h2><span style="padding-right:10px; padding-top:10px;" class="fa fa-bar-chart fa-1x" aria-hidden="true"></span>Quick facts</h2>
+
+<table width="60%"><tbody>
+<tr align="center" style="color:#00587b;">
+<td width="20%"><span class="fa fa-birthday-cake fa-2x fa-border" aria-hidden="true"></span></td>
+<td width="20%"><span class="fa fa-users fa-2x fa-border" aria-hidden="true"></span></td>
+<td width="20%"><span class="fa fa-graduation-cap fa-2x fa-border" aria-hidden="true"></span></td>
+</tr>
+<tr align="center">
+<td>year founded</br><span style="font-size: 1.5em;">2010</span></td>
+<td># affiliates</br><span style="font-size: 1.5em;">200+</span></td>
+<td># grad. students</br><span style="font-size: 1.5em;">50+</span></td>
+</tr>
+</tbody></table>
+<p>The ISCD has grown to a university central structure with overall more than 200 researchers from mathematics, computer science, biology, chemistry, engineering, physics, earth sciences, medicine and humanities. Since 2010, more than 50 PhDs and postdocs have been hired to work on a dozen of research areas, from computational chemistry and biology to mathematical modelling for forensic sciences, to digital archeology, to scientific visualization or to healthcare analytics.
+</p>
+
+<h2><span style="padding-right:10px; padding-top:25px;" class="fa fa-euro fa-1x" aria-hidden="true"></span>ISCD Budget</h2>
+
+<p>The annual budget of the ISCD is provided by Sorbonne Université. In 2012, the ISCD has successfully applied to the French investment program (<a href="http://www.enseignementsup-recherche.gouv.fr/pid24578/investissements-d-avenir.html" target="_blank">PIA/Programme Investissements d’Avenir</a>) which acknowledged the structuring nature of this project to tackle interdisciplinary challenges in scientific computing. Since then, additional fundings came through European, national and regional initiatives. Sponsorship provides opportunities to have access to a valuable resource that would be difficult to be accommodated by the core institutions.</p>
+
+<p>A measure of the success of the ISCD model is the amount of third-party funding raised by its researchers. A selection of major grants obtained by the researchers shows that the ISCD has been able to raise substantial funding to sustain its activities.
+<ul>
+<li><span style="font-weight: bold;">2011-2019</span> equip@meso, <i>tremplin vers le calcul pétaflopique</i>, Programme Investissements d’Avenir, 1.3M€</li>
+<li><span style="font-weight: bold;">2011-2017</span> Sesame RefICS, <i>Plateforme Paris Ile de France pour la Recherche et la Formation interdisciplinaires en calcul et simulation</i>, 720k€</li>
+<li><span style="font-weight: bold;">2012-2019</span> Calsimlab, <i>Labex pour la modélisation et la simulation scientifiques en recherche</i>, Programme Investissements d’Avenir, 5M€</li>
+<li><span style="font-weight: bold;">2014-2018</span> Chair FaciLe, <i>Reconstruction cranio-faciale numérique pour la médecine légale</i>, 1.2M€</li>
+<li><span style="font-weight: bold;">2015-2018</span> ICS@SU, <i>Action structurante: institut des sciences du calcul et des données</i>, 720k€</li>
+<li><span style="font-weight: bold;">2015</span> FEDER, <i>Fédération calcul scientifique, analyse et visualisation des données complexes</i>, 380k€</li>
+</ul>
+</p>
+
+
+
+
+
+
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2016-10-21 09:03:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-10-21 09:03:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page_secondary.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -11376,80 +11446,6 @@ For the fastest response to your enquiry, please email: <a href="mailto:training
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Healthcare analytics</title>
-		<link>http://iscd.upmc.fr/research/healthcare-analytics/</link>
-		<pubDate>Tue, 07 Mar 2017 21:56:27 +0000</pubDate>
-		<dc:creator><![CDATA[frey]]></dc:creator>
-		<guid isPermaLink="false">http://134.157.66.222/?page_id=3663</guid>
-		<description></description>
-		<content:encoded><![CDATA[Coming soon]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3663</wp:post_id>
-		<wp:post_date><![CDATA[2017-03-07 21:56:27]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-03-07 21:56:27]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[healthcare-analytics]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>42</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[5]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contact</title>
-		<link>http://iscd.upmc.fr/research/simseo-program/contact/</link>
-		<pubDate>Tue, 14 Mar 2017 01:32:15 +0000</pubDate>
-		<dc:creator><![CDATA[frey]]></dc:creator>
-		<guid isPermaLink="false">http://134.157.66.222/?page_id=3937</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h2><span style="padding-right:10px;" class="fa fa-bar-chart fa-1x" aria-hidden="true"></span>Contact us!</h2>
-
-<p>Programme Simseo</br>Institut des sciences du calcul et des données</br>UPMC, campus Jussieu</br>boîte courier 380, 4, place Jussieu</br>75252 Paris cedex 05, France</p>
-
-<table width="50%"><tbody>
-<tr><td>Coordinators:</td><td>Pascal Frey</td></tr>
-<tr><td></td><td>Agnieszka Miskiewicz</td></tr>
-<tr><td>Administrative and financial assistant:</td><td>Sophie Fassy</td></tr>
-<tr><td></br><span style="padding-right:10px;" class="fa fa-phone fa-1x" aria-hidden="true"></span> (+33) 1 44 27 51 02</td></tr>
-<tr><td><span style="padding-right:10px;" class="fa fa-envelope-o fa-1x" aria-hidden="true"></span> <a href="mailto:iscd@upmc.fr?subject=inquiry about simseo">iscd@upmc.fr</a></td></tr>
-</tbody></table>
-
-</br>
-
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3937</wp:post_id>
-		<wp:post_date><![CDATA[2017-03-14 01:32:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-03-14 01:32:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>79</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[3]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page_tertiary.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Facile</title>
 		<link>http://iscd.upmc.fr/overview-2/</link>
 		<pubDate>Thu, 27 Oct 2016 00:36:51 +0000</pubDate>
@@ -11779,65 +11775,77 @@ Multiple descriptions of shapes have been proposed, for instance:
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Healthcare Analytics</title>
-		<link>http://iscd.upmc.fr/test/</link>
-		<pubDate>Thu, 02 Mar 2017 02:19:43 +0000</pubDate>
-		<dc:creator><![CDATA[Bartette]]></dc:creator>
-		<guid isPermaLink="false">http://134.157.66.222/?p=3473</guid>
+		<title>Healthcare analytics</title>
+		<link>http://iscd.upmc.fr/research/healthcare-analytics/</link>
+		<pubDate>Tue, 07 Mar 2017 21:56:27 +0000</pubDate>
+		<dc:creator><![CDATA[frey]]></dc:creator>
+		<guid isPermaLink="false">http://134.157.66.222/?page_id=3663</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[Coming soon]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>3473</wp:post_id>
-		<wp:post_date><![CDATA[2017-03-02 02:19:43]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-03-02 02:19:43]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[test]]></wp:post_name>
+		<wp:post_id>3663</wp:post_id>
+		<wp:post_date><![CDATA[2017-03-07 21:56:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-03-07 21:56:27]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[healthcare-analytics]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>42</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="hilights"><![CDATA[hilights]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[3476]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Maximum Probability Domains</title>
-		<link>http://iscd.upmc.fr/maximum-probability-domains/</link>
-		<pubDate>Thu, 09 Mar 2017 09:00:33 +0000</pubDate>
+		<title>Contact</title>
+		<link>http://iscd.upmc.fr/research/simseo-program/contact/</link>
+		<pubDate>Tue, 14 Mar 2017 01:32:15 +0000</pubDate>
 		<dc:creator><![CDATA[frey]]></dc:creator>
-		<guid isPermaLink="false">http://134.157.66.222/?p=3728</guid>
+		<guid isPermaLink="false">http://134.157.66.222/?page_id=3937</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3>Discussion meeting on maximum probability domains (MPD)</h3>
+		<content:encoded><![CDATA[<h2><span style="padding-right:10px;" class="fa fa-bar-chart fa-1x" aria-hidden="true"></span>Contact us!</h2>
 
-coordinator: Benoît Braida (LCT)
-location: ISCD
-duration: 2 days]]></content:encoded>
-		<excerpt:encoded><![CDATA[ISCD, room 201, hall 33-34, 2nd floor - 10h-16h]]></excerpt:encoded>
-		<wp:post_id>3728</wp:post_id>
-		<wp:post_date><![CDATA[2017-03-09 09:00:33]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-03-09 09:00:33]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[maximum-probability-domains]]></wp:post_name>
+<p>Programme Simseo</br>Institut des sciences du calcul et des données</br>UPMC, campus Jussieu</br>boîte courier 380, 4, place Jussieu</br>75252 Paris cedex 05, France</p>
+
+<table width="50%"><tbody>
+<tr><td>Coordinators:</td><td>Pascal Frey</td></tr>
+<tr><td></td><td>Agnieszka Miskiewicz</td></tr>
+<tr><td>Administrative and financial assistant:</td><td>Sophie Fassy</td></tr>
+<tr><td></br><span style="padding-right:10px;" class="fa fa-phone fa-1x" aria-hidden="true"></span> (+33) 1 44 27 51 02</td></tr>
+<tr><td><span style="padding-right:10px;" class="fa fa-envelope-o fa-1x" aria-hidden="true"></span> <a href="mailto:iscd@upmc.fr?subject=inquiry about simseo">iscd@upmc.fr</a></td></tr>
+</tbody></table>
+
+</br>
+
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3937</wp:post_id>
+		<wp:post_date><![CDATA[2017-03-14 01:32:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-03-14 01:32:15]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_parent>79</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="events"><![CDATA[Events]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page_tertiary.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -12437,6 +12445,37 @@ Prof. L. Mesnard (H. Tenon), Prof. F. Cornélis (H. Tenon)</p>
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Healthcare Analytics</title>
+		<link>http://iscd.upmc.fr/test/</link>
+		<pubDate>Thu, 02 Mar 2017 02:19:43 +0000</pubDate>
+		<dc:creator><![CDATA[Bartette]]></dc:creator>
+		<guid isPermaLink="false">http://134.157.66.222/?p=3473</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3473</wp:post_id>
+		<wp:post_date><![CDATA[2017-03-02 02:19:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-03-02 02:19:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[test]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="hilights"><![CDATA[hilights]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3476]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>EmC2: Maximum Probability Domains</title>
 		<link>http://iscd.upmc.fr/emc2-maximum-probability-domains/</link>
 		<pubDate>Thu, 09 Mar 2017 11:00:38 +0000</pubDate>
@@ -12468,6 +12507,37 @@ In this presentation, I will introduce the theory of MPDs, extend it with novel 
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[emc2-maximum-probability-domains]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="events"><![CDATA[Events]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Maximum Probability Domains</title>
+		<link>http://iscd.upmc.fr/maximum-probability-domains/</link>
+		<pubDate>Thu, 09 Mar 2017 09:00:33 +0000</pubDate>
+		<dc:creator><![CDATA[frey]]></dc:creator>
+		<guid isPermaLink="false">http://134.157.66.222/?p=3728</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h3>Discussion meeting on maximum probability domains (MPD)</h3>
+
+coordinator: Benoît Braida (LCT)
+location: ISCD
+duration: 2 days]]></content:encoded>
+		<excerpt:encoded><![CDATA[ISCD, room 201, hall 33-34, 2nd floor - 10h-16h]]></excerpt:encoded>
+		<wp:post_id>3728</wp:post_id>
+		<wp:post_date><![CDATA[2017-03-09 09:00:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-03-09 09:00:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[maximum-probability-domains]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>

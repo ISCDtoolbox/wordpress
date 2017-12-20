@@ -1,4 +1,6 @@
 <?php
+
+//Change the maximumfile upload size
 @ini_set( 'upload_max_size' , '10MB' );
 @ini_set( 'post_max_size', '10MB');
 @ini_set( 'max_execution_time', '300' );
@@ -15,16 +17,17 @@ function allow_contributor_uploads() {
 if ( current_user_can('contributor') && !current_user_can('upload_files') ){
 	add_action('admin_init', 'allow_contributor_uploads');
 }
+
+//Support pour l'excerpt
 function wpcodex_add_excerpt_support_for_pages() {
 	add_post_type_support( 'page', 'excerpt' );
 }
 add_action( 'init', 'wpcodex_add_excerpt_support_for_pages' );
 
-//Support pour le logo au poil du top notch
+//Support pour le logo custom
 function theme_prefix_setup() {
 	add_theme_support( 'custom-logo');
 }
-
 add_action( 'after_setup_theme', 'theme_prefix_setup' );
 add_image_size('the_custom_logo', 225, 60);
 function theme_prefix_the_custom_logo() {
@@ -33,13 +36,11 @@ function theme_prefix_the_custom_logo() {
 	}
 }
 
-//Ajout du menu principal et du menu secondaire
+//Ajout des menus
 function register_my_menus() {
 	register_nav_menus(array('main-menu' => __( 'Main Menu' ), 'secondary-menu' => __( 'Secondary Menu' )));
 }
 add_action( 'init', 'register_my_menus' );
-
-
 
 //Image de la page d'accueil
 $args = array(
@@ -91,7 +92,7 @@ function trombi_func( $atts ) {
 }
 add_shortcode( 'trombi', 'trombi_func' );
 
-
+// Fonction pour le niveau hiérarchique de la page
 function get_depth($postid) {
 	$depth = ($postid==get_option('page_on_front')) ? -1 : 0;
 	while ($postid > 0) {
@@ -138,6 +139,7 @@ function card_func( $atts ) {
 }
 add_shortcode( 'card', 'card_func' );
 
+//Fonction pour vérifier si on est dans un arbre
 function is_tree($pid) {
 	//$pid = The ID of the ancestor page
 	global $post; //load details about this page
@@ -155,6 +157,7 @@ function is_tree($pid) {
 	}
 }
 
+//Surbrillance pour les résultats de recherche
 function highlight_results($text){
 	if(is_search()){
 		$keys = implode('|', explode(' ', get_search_query()));
@@ -165,25 +168,21 @@ function highlight_results($text){
 add_filter('the_content', 'highlight_results');
 add_filter('the_excerpt', 'highlight_results');
 add_filter('the_title', 'highlight_results');
-
 function highlight_results_css() {
-	?>
-	<style>
-	.search-highlight { background-color:#FF0; font-weight:bold; }
-	</style>
-	<?php
+	echo("<style>.search-highlight { background-color:#FF0; font-weight:bold; }</style>");
 }
 add_action('wp_head','highlight_results_css');
 
+//Rajout du jquery
 wp_enqueue_script('jquery');
 
-
+//Texte pour expliquer l'ajout des news
 add_action( 'edit_form_after_title', 'myprefix_edit_form_after_title' );
 function myprefix_edit_form_after_title() {
 	echo '<h2 style="color:red; margin:0px">Important:</h2><p style="color:#a00;margin-top:0px">When creating a news concerning an upcoming event, please specify the location and time in the excerpt, in the format "Location - Time" <br>i.e. "room 206, 33-34, second floor - 14h"</p>';
 }
 
-
+// A virer - Envoi de mail pour les nouveaux posts
 add_action( 'transition_post_status', 'pending_post_status', 10, 3 );
 function pending_post_status( $new_status, $old_status, $post ) {
     if ( $new_status === "new" or $new_status === "pending") {
@@ -196,10 +195,9 @@ function pending_post_status( $new_status, $old_status, $post ) {
 				$message = wordwrap($message, 70, "\r\n");
 				mail('loic.norgeot@gmail.com', 'Mon Sujet', $message);
     }
-
-
 }
 
+//Fonction pour les news "sticky"
 function sticky($src, $title, $text, $sub, $link, $type="modal"){
 	$html = '';
 	if($type=="modal"){$html = $html . '<div class="sticky modalButton" link="' . $link . '">';}
@@ -211,16 +209,8 @@ function sticky($src, $title, $text, $sub, $link, $type="modal"){
         if($type=="modal"){$html = $html . '</div>';}
         else{$html = $html . '</a>';}
 	return $html;
-
-	//if($type=="modal"){echo '<div class="sticky modalButton" link="' . $link . '">';}
-	//else{echo '<a class="sticky" href="' . $link . '">';}
-        //echo '<img class="mainImage" src="' . $src . '"></img>';
-        //echo '<span class="badge"><span style="color:#666" class="date">' . $sub . '</span></span>';
-        //echo '<div class="text">' . $title . '</div>';
-        //echo '<div style="color:#333;display:block;" class="excerpt">' . $text . '</div>';
-	//if($type=="modal"){echo '</div>';}
-        //else{echo '</a>';}
 }
+//Fonction pour les news de type "brèves"
 function breve($month, $day, $sticky, $title, $text, $link){
 	echo '<li class="breve modalButton" link="' . $link . '">';
         echo '<div class="date"><span>' . $month . '</span><br><span>' . $day . ' ' . $sticky . '</span></div>';
@@ -230,14 +220,16 @@ function breve($month, $day, $sticky, $title, $text, $link){
         echo '</div>';
 	echo '</li>';
 }
+//Fonction pour les pop-up
 function modal($title, $content, $loc, $link){
 	echo '<div class="modal" id="' . $link . '">';
-        echo '<h1>' . $title . '</h1>';
-        echo '<p>' . $loc . '</p>';
+  echo '<h1>' . $title . '</h1>';
+  echo '<p>' . $loc . '</p>';
 	echo $content;
 	echo '</div>';
 }
 
+//Filtres pour le contenu
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 

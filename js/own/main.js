@@ -33,8 +33,6 @@ $("#icon").click(
 	}
 );
 
-
-
 $("#dock").on("click", "li", function(){
 	$('#contentSideBar').html($(this).next("div").html());
 });
@@ -66,14 +64,10 @@ $("#mainMenu ul ul li").click(function(){
 	$(this).next("ul").children("li").toggle(200);
 });
 
-
 $("#faq li").next("p").hide();
 $("#faq li").click(function(){
         $(this).next("p").toggle(200);
 });
-
-
-
 
 //link each button (class modalButton) with its link (class modal) via the link attribute
 $(".modalButton").each(function(){
@@ -85,7 +79,7 @@ $(".modalButton").each(function(){
 $(".modalButton").click(function(e){
 	var link = $(this).attr("link");
 	var modal = $("#"+link);
-	modal.fadeIn();	
+	modal.fadeIn();
 	$("#standaloneMenu").fadeOut();
 	$("#standaloneMenu").prev().slideToggle();
 	$(".icon").fadeOut();
@@ -113,15 +107,11 @@ $("#back").click(function(){
 	window.location.href = 'http://iscd.upmc.fr';
 })
 
-
 $('.cat-item a').each(function(){
 	if(window.location.href == $(this).attr("href")){
 		$(this).parent().addClass("current");
 	}
 });
-
-
-
 
 var mylist = $('#az');
 var listitems = mylist.children('li').get();
@@ -137,13 +127,12 @@ $('body').on('click','.play',function(){
     var iframe = $(this).parent().find('iframe');
     iframe.attr("src", iframe.attr('link'));
 });
-$('body').on('click','.stop',function(){	
+$('body').on('click','.stop',function(){
     $(this).parent().find(".play").fadeIn(300);
     $(this).parent().find(".stop").fadeOut(300);
     var iframe = $(this).parent().find('iframe');
     iframe.attr("src", "about:blank");
 });
-
 
 $("#menu_container li").mouseover(function(){
 	$(this).animate({width:"200px"}).clearQueue();
@@ -151,4 +140,3 @@ $("#menu_container li").mouseover(function(){
 $("#menu_container li").mouseout(function(){
         $(this).animate({width:'50px'});
 });
-

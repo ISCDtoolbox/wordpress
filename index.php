@@ -7,7 +7,9 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
+
 <?php get_header();?>
+
 <?php the_excerpt(); ?>
 	<?php
 		$args = array( 'post_type' => 'page', 'post_parent' => $post->ID );

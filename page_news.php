@@ -54,7 +54,7 @@
 					modal(get_the_title(), get_the_content(), $loc, "highlight".$i);
 					$i = $i + 1;
 				}
-				echo('</div>')
+				echo('</div>');
 				wp_reset_postdata();
 			}
 			else{

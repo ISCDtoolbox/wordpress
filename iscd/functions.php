@@ -121,21 +121,7 @@ function card_func( $atts ) {
 		$endLink = "</a>";
 	}
 
-	//. "<a target='_self' href=" . $a['img'] . "><img src='" . $a['img'] . "'></a>"
-
 	return sticky($a["img"], $a["name"], $a["text"], $a["icon"], $a["href"], "link");
-
-	//return "<div class='card " . $a["color"] . "'>"
-	//. $link
-	//. "<img src='" . $a['img'] . "'>"
-	//. "<div class='cardContent'>"
-	//. "<div class='cardIcon'>" . $a["icon"] . "</div>"
-	//. "<div class='cardTitle'>"
-	//. "<h2 style='color:".$a["color"]."'>" . $a["name"] . "</h2>"
-	//. "</div>"
-	//. "<p>" . $a['text']. "</p>"
-	//. "</div>" . $endLink . "</div>";
-
 }
 add_shortcode( 'card', 'card_func' );
 
